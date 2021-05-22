@@ -4,8 +4,7 @@ Class Server {
     public function checkIfRunning($data) {
         $data['serverRunning'] = false;
 
-        //exec("pgrep InsurgencyServe", $pids);
-        $pids = null;
+        exec("pgrep InsurgencyServe", $pids);
 
         if(!empty($pids)) {
             $data['serverRunning'] = true;

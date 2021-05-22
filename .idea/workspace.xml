@@ -49,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621631478487</updated>
       <workItem from="1621631479538" duration="3757000" />
-      <workItem from="1621713986815" duration="2746000" />
+      <workItem from="1621713986815" duration="3457000" />
     </task>
     <servers />
   </component>
@@ -57,13 +57,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1010" y="483" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621716663771">
+    <state x="1010" y="483" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621716897962">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1010" y="483" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.7.1920.1040@0.0.2560.1400" timestamp="1621716663771" />
+    <state x="1010" y="483" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.7.1920.1040@0.0.2560.1400" timestamp="1621716897962" />
     <state x="1089" y="606" key="NewPhpFileDialog" timestamp="1621716096063">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1089" y="606" key="NewPhpFileDialog/0.0.2560.1400/-1920.7.1920.1040@0.0.2560.1400" timestamp="1621716096063" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1621716861853">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1920.7.1920.1040@0.0.2560.1400" timestamp="1621716861853" />
   </component>
 </project>
