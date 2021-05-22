@@ -1,0 +1,48 @@
+body {
+    background-color: #ff7700;
+    background-image: url('../img/background.svg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+* {
+    font-family: Montserrat,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main h1 {
+    top: 10vh;
+    position: relative;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+main h2 {
+    top: 12vh;
+    position: relative;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+.standard-btn {
+    font-size: 1vw;
+    padding: 16px;
+    border-radius: 3px;
+    outline: none;
+    border: 6px solid transparent;
+    background-color: rgba(255,255,255, .8);
+    box-shadow: 6px 5px 5px grey;
+}
+.standard-btn:hover {
+    cursor:pointer
+}
+.stop-server {
+    margin-left: 32px;
+}
+
+.button-container {
+    top: 45vh;
+    position: relative;
+    text-align: center;
+}
