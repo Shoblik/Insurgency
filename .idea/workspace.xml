@@ -26,14 +26,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/server/logs" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shobl\code\insurgencyServer\public\server\logs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\shobl\code\insurgencyServer\public" />
       <recent name="C:\Users\shobl\code\insurgencyServer\public\actions" />
+      <recent name="C:\Users\shobl\code\insurgencyServer\public\server\Controllers" />
+      <recent name="C:\Users\shobl\code\insurgencyServer\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,10 +49,21 @@
       <option name="presentableId" value="Default" />
       <updated>1621631478487</updated>
       <workItem from="1621631479538" duration="3757000" />
+      <workItem from="1621713986815" duration="2746000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1010" y="483" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621716663771">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="483" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.7.1920.1040@0.0.2560.1400" timestamp="1621716663771" />
+    <state x="1089" y="606" key="NewPhpFileDialog" timestamp="1621716096063">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1089" y="606" key="NewPhpFileDialog/0.0.2560.1400/-1920.7.1920.1040@0.0.2560.1400" timestamp="1621716096063" />
   </component>
 </project>
