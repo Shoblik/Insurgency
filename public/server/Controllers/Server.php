@@ -1,7 +1,7 @@
 <?php
 
 Class Server {
-    public function checkIfRunning($data) {
+    public function checkIfRunning($data=[]) {
         $data['serverRunning'] = false;
 
         exec("pgrep InsurgencyServe", $pids);
@@ -21,11 +21,19 @@ Class Server {
     }
 
     public function startServer($data) {
-        $command = $this->formatCommand();
+        $alreadyRunning = $this->checkIfRunning();
 
-        exec(sprintf("%s > %s 2>&1 & echo $! >> %s", $command, './logs/output', './logs/pidfile'));
+        if (!$alreadyRunning['serverRunning']) {
+            $command = $this->formatCommand();
 
-        return $this->checkIfRunning($data);
+            exec(sprintf("%s > %s 2>&1 & echo $! >> %s", $command, './logs/output', './logs/pidfile'));
+
+            return $this->checkIfRunning($data);
+        } else {
+            $data['errors'] = 'Server already running';
+        }
+
+        return $data;
     }
 
     public function formatCommand() {

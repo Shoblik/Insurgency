@@ -1,6 +1,6 @@
 body {
     background-color: #ff7700;
-    background-image: url('../img/background.svg');
+    background-image: url('../img/nice-colors-background.svg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -8,6 +8,7 @@ body {
     font-family: Montserrat,sans-serif;
     margin: 0;
     padding: 0;
+    color: white;
 }
 main h1 {
     top: 10vh;
@@ -15,7 +16,7 @@ main h1 {
     font-size: 4vw;
     text-align: center;
     font-weight: 100;
-    color: white;
+    color: black;
 }
 main h2 {
     top: 12vh;
@@ -23,7 +24,7 @@ main h2 {
     font-size: 3vw;
     text-align: center;
     font-weight: 100;
-    color: white;
+    color: black;
 }
 .standard-btn {
     font-size: 1vw;
@@ -31,8 +32,9 @@ main h2 {
     border-radius: 3px;
     outline: none;
     border: 6px solid transparent;
-    background-color: rgba(255,255,255, .8);
+    background-color: rgba(255, 255, 255, .8);
     box-shadow: 6px 5px 5px grey;
+    color: black;
 }
 .standard-btn:hover {
     cursor:pointer
@@ -41,8 +43,39 @@ main h2 {
     margin-left: 32px;
 }
 
-.button-container {
+.btn-container {
     top: 45vh;
     position: relative;
     text-align: center;
+}
+sidebar {
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(255 255 255 / 20%);
+    border-right: 1px solid #ffffff;
+    z-index: 2;
+}
+.item-container > div > p:hover {
+    cursor: pointer;
+    background-color: #aa1100;
+    color: white;
+}
+.item-container > div:first-child > p:hover {
+    cursor: pointer;
+    background-color: initial;;
+}
+.item-container > div:first-child > p {
+    color: #aa1100;
+}
+.item-container > div > p {
+    padding: 16px;
+    border-bottom: 1px solid #4d1212;
+    text-align: left;
+    transition: .4s;
+    font-size: 22px;
+    color: black;
+}
+.status {
+    color: #aa1100;
 }
