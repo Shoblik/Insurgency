@@ -10,7 +10,7 @@ Class Routes {
     ];
 
     public function parsePost() {
-        if ($_POST['startServer']) {
+        if ($_GET['startServer']) {
             $Server = new Server();
             $this->data = $Server->startServer($this->data);
         }
