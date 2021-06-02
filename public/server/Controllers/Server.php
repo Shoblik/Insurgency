@@ -37,6 +37,9 @@ Class Server {
     }
 
     public function formatCommand() {
+        if (!empty($_POST)) {
+            return '/home/steam/sandstorm/Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping "Farmhouse?Scenario=Scenario_Farmhouse_Checkpoint_Security?Password=ilovesimon" -log -hostname="Simon Server" -QueryPort=27333 -Mods --CmdModList="' . $_POST['modIds'] . '" -mutators=' . $_POST['mutators'] . ' -ModDownloadTravelTo=Tell?Scenario=Scenario_Tell_Checkpoint_Security?Lighting=Day';
+        }
         return '/home/steam/sandstorm/Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping "Farmhouse?Scenario=Scenario_Farmhouse_Checkpoint_Security?Password=ilovesimon" -log -hostname="Simon Server" -QueryPort=27333 -Mods --CmdModList="150867" -mutators=AllYouCanEat,ISMC_Casual -ModDownloadTravelTo=Tell?Scenario=Scenario_Tell_Checkpoint_Security?Lighting=Day';
     }
 }

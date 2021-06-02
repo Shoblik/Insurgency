@@ -38,7 +38,7 @@ Class Routes {
 $Routes = new Routes();
 
 if (empty($_POST)) {
-    $data = $Routes->parseGet();
+    $data = $Routes->parsePost();
 } else if (!empty($_GET)) {
     $data = $Routes->parseGet();
 }

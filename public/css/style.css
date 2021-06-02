@@ -1,5 +1,5 @@
 body {
-    background-color: #ff7700;
+    background-color: #cccccc;
     background-image: url('../img/nice-colors-background.svg');
     background-attachment: fixed;
     background-size: cover;
@@ -11,20 +11,21 @@ body {
     color: white;
 }
 main h1 {
-    top: 10vh;
     position: relative;
     font-size: 4vw;
     text-align: center;
     font-weight: 100;
     color: black;
+    margin-bottom: 16px;
 }
 main h2 {
-    top: 12vh;
     position: relative;
-    font-size: 3vw;
-    text-align: center;
+    font-size: 2vw;
     font-weight: 100;
     color: black;
+    text-align: left;
+    display: inline-block;
+    margin: 0 0 0 0;
 }
 .standard-btn {
     font-size: 1vw;
@@ -68,9 +69,9 @@ sidebar {
 .item-container > div:first-child > p {
     color: #aa1100;
 }
-.item-container > div > p {
+.item-container > div > p,
+.mod-item p{
     padding: 16px;
-    border-bottom: 1px solid #4d1212;
     text-align: left;
     transition: .4s;
     font-size: 22px;
@@ -78,4 +79,50 @@ sidebar {
 }
 .status {
     color: #aa1100;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 8px;
+    position: relative;
+}
+main {
+    top: 6vh;
+    position: relative;
+    max-width: 1140px;
+    margin: auto auto 80px auto;
+}
+.head-container {
+    display: inline-block;
+    position: relative;
+    padding: 16px;
+}
+.content {
+    margin-top: 12vh;
+}
+.mods {
+    background-color: rgb(204 204 204 / 80%);
+    border: 2px solid #4d1212;
+    padding: 16px;
+    display: none;
+}
+.mod-item p {
+    padding: 0;
+}
+input.standard-input {
+    font-size: 16px;
+    color: black;
+    margin: 16px 0 0 0;
+    padding: 12px 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.mod-item:first-child {
+    margin-bottom: 46px;
+}
+.spinner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
 }
