@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css?ver=1.1" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./js/main.js?ver=1.1"></script>
+    <script src="./js/main.js?ver=1.2"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet"></head>
 <body>
@@ -46,9 +46,6 @@
                 </div>
                 <div onclick="server.stopServer();">
                     <p>Stop Server</p>
-                </div>
-                <div onclick="server.restartServer();">
-                    <p>Restart Server</p>
                 </div>
                 <div onclick="server.checkIfServerRunning();">
                     <p>Check Server</p>

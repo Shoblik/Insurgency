@@ -18,7 +18,7 @@ var server = {
                 server.serverLoadStart();
             },
             complete: function() {
-                server.serverLoadEnd();
+                // server.serverLoadEnd();
             },
             success: function(response) {
                 if (response.success) {
@@ -39,6 +39,8 @@ var server = {
         } else {
             $('#status h2').text('Down');
         }
+
+        server.serverLoadEnd();
     },
 
     startServer: function() {
@@ -54,7 +56,7 @@ var server = {
                 server.serverLoadStart();
             },
             complete: function() {
-                server.serverLoadEnd();
+                // server.serverLoadEnd();
             },
             success: function(response) {
                 if (response.success) {
@@ -78,7 +80,7 @@ var server = {
                 server.serverLoadStart();
             },
             complete: function() {
-                server.serverLoadEnd();
+                // server.serverLoadEnd();
             },
             success: function(response) {
                 if (response.success) {
@@ -91,12 +93,6 @@ var server = {
                 alert('Something went wrong, call Simon | ref 222');
             }
         });
-    },
-
-    restartServer: function() {
-      server.stopServer();
-      server.startServer();
-      return;
     },
 
     serverLoadStart: function() {
