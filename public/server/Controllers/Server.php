@@ -17,6 +17,8 @@ Class Server {
     public function shutdownServer($data) {
         exec('killall InsurgencyServe');
 
+        sleep(3);
+
         return $this->checkIfRunning($data);
     }
 
@@ -27,6 +29,8 @@ Class Server {
             $command = $this->formatCommand();
 
             exec(sprintf("%s > %s 2>&1 & echo $! >> %s", $command, './logs/output', './logs/pidfile'));
+
+            sleep(3);
 
             return $this->checkIfRunning($data);
         } else {
