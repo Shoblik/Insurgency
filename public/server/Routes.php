@@ -38,9 +38,9 @@ Class Routes {
 $Routes = new Routes();
 
 if (empty($_POST)) {
-    $data = $Routes->parsePost();
-} else if (!empty($_GET)) {
     $data = $Routes->parseGet();
+} else {
+    $data = $Routes->parsePost();
 }
 
 echo json_encode($data);
