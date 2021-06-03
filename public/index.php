@@ -5,9 +5,9 @@
     <title>Simon's Insurgency Server</title>
     <meta name="description" content="Simon Hoblik's Dedicated Insurgency Server">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/style.css?ver=1.1" />
+    <link rel="stylesheet" href="./css/style.css?ver=1.2" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./js/main.js?ver=1.2"></script>
+    <script src="./js/main.js?ver=1.3"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet"></head>
 <body>
@@ -38,9 +38,6 @@
         </div>
         <div class="content">
             <div class="item-container">
-                <div>
-                    <p>Server Options</p>
-                </div>
                 <div onclick="server.startServer();">
                     <p>Start Server</p>
                 </div>
